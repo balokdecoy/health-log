@@ -5,6 +5,10 @@ USE healthLog;
 
 CREATE TABLE log (
     id int NOT NULL AUTO_INCREMENT,
-    name varchar(100) NOT NULL,
+    breakfast varchar(100),
+    lunch varchar(100),
+    dinner varchar(100),
+    snack varchar(100),
+    supplements varchar(100),
     PRIMARY KEY (id)
 )
